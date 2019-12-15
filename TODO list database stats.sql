@@ -3,3 +3,5 @@ INSERT INTO todo_list VALUES (1, "Wash the dishes", 15);
 INSERT INTO todo_list VALUES (2, "vacuuming", 20);
 INSERT INTO todo_list VALUES (3, "Learn some stuff on KA", 30);
 INSERT INTO todo_list VALUES (4, "Learn some stuff on BujaHUB", 60);
+
+SELECT SUM(minutes) FROM todo_list;
