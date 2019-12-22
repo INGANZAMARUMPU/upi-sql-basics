@@ -24,4 +24,5 @@ INSERT INTO songs (title, artist, mood, duration, released)
     VALUES ("Call me maybe", "Carly Rae Jepsen", "happy", 193, 2011);
 
 SELECT title FROM songs;
-SELECT title FROM songs WHERE mood="epic" or released>1990;
+SELECT title FROM songs WHERE mood="epic" OR released>1990;
+SELECT title FROM songs WHERE mood="epic" AND released>1990 AND duration<240;
