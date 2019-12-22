@@ -58,4 +58,4 @@ INSERT INTO songs (artist, title)
     VALUES ("Guns N' Roses", "Don't cry");
     
 SELECT title FROM songs WHERE artist="Queen";
-
+SELECT name FROM artists WHERE genre="Pop";
