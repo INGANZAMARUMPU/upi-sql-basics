@@ -27,4 +27,4 @@ INSERT INTO hobbies (person_id, name) VALUES (4, "dilly-dallying");
 INSERT INTO hobbies (person_id, name) VALUES (4, "meowing");
 INSERT INTO hobbies (person_id, name) VALUES (6, "drinking");
 
-
+SELECT persons.name, hobbies.name FROM persons, hobbies WHERE persons.id = hobbies.person_id;
