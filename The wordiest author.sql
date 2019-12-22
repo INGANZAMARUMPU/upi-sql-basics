@@ -37,3 +37,4 @@ INSERT INTO books (author, title, words)
 INSERT INTO books (author, title, words)
     VALUES ("J.R.R. Tolkien", "Return of the King", 134462);
  
+SELECT author, SUM(words) AS total_words FROM books GROUP BY author HAVING total_words>1000000; 
