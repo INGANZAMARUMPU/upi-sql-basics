@@ -8,6 +8,7 @@ INSERT INTO persons (name, age) VALUES ("Lucy BoBucie", 25);
 INSERT INTO persons (name, age) VALUES ("Banana FoFanna", 14);
 INSERT INTO persons (name, age) VALUES ("Shish Kabob", 20);
 INSERT INTO persons (name, age) VALUES ("Fluffy Sparkles", 8);
+INSERT INTO persons (name, age) VALUES ("Mr KonstrIctor", 23);
 
 CREATE table hobbies (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -24,5 +25,6 @@ INSERT INTO hobbies (person_id, name) VALUES (3, "drawing");
 INSERT INTO hobbies (person_id, name) VALUES (4, "coding");
 INSERT INTO hobbies (person_id, name) VALUES (4, "dilly-dallying");
 INSERT INTO hobbies (person_id, name) VALUES (4, "meowing");
+INSERT INTO hobbies (person_id, name) VALUES (6, "drinking");
 
 
