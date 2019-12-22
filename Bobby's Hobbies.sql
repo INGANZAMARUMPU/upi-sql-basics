@@ -27,4 +27,7 @@ INSERT INTO hobbies (person_id, name) VALUES (4, "dilly-dallying");
 INSERT INTO hobbies (person_id, name) VALUES (4, "meowing");
 INSERT INTO hobbies (person_id, name) VALUES (6, "drinking");
 
+-- SELECT persons.name, hobbies.name FROM persons JOIN hobbies ON persons.id = hobbies.person_id;
 SELECT persons.name, hobbies.name FROM persons, hobbies WHERE persons.id = hobbies.person_id;
+-- SELECT persons.name, hobbies.name FROM persons JOIN hobbies ON persons.id = hobbies.person_id WHERE persons.name='Bobby McBobbyFace';
+SELECT persons.name, hobbies.name FROM persons, hobbies WHERE persons.id = hobbies.person_id AND persons.name='Bobby McBobbyFace';
