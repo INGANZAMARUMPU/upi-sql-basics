@@ -20,4 +20,4 @@ INSERT INTO movies
 INSERT INTO movies 
     VALUES (8, "Harry Potter and the Deathly Hallows – Part 2", 2011, NULL);
     
-
+SELECT A.title, B.title as sequel FROM movies as A LEFT OUTER JOIN movies AS B ON A.sequel_id=B.id;
