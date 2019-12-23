@@ -19,3 +19,5 @@ INSERT INTO orders (customer_id, item, price)
     VALUES (2, "High Quality Broomstick", 40.00);
 INSERT INTO orders (customer_id, item, price)
     VALUES (1, "TARDIS", 1000000.00);
+
+SELECT customers.name, customers.email, orders.item, orders.price FROM customers LEFT OUTER JOIN orders ON customers.id=orders.customer_id;
