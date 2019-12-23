@@ -20,3 +20,7 @@ SELECT * FROM documents;
 UPDATE documents SET author='Jackie Draper' WHERE author='Jackie Paper';
 
 SELECT * FROM documents;
+
+DELETE FROM documents WHERE title="Things I'm Afraid Of";
+
+SELECT * FROM documents;
