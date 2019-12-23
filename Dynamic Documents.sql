@@ -16,3 +16,7 @@ INSERT INTO documents (author, title, content)
     VALUES ("Jackie Paper", "Things I'm Afraid Of", "Talking to my parents, the sea, giant pirates, heights.");
 
 SELECT * FROM documents;
+
+UPDATE documents SET author='Jackie Draper' WHERE author='Jackie Paper';
+
+SELECT * FROM documents;
