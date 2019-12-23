@@ -9,3 +9,7 @@ INSERT INTO clothes (type, design)
     VALUES ("pants", "rainbow tie-dye");
 INSERT INTO clothes (type, design)
     VALUES ("blazer", "black sequin");
+    
+ALTER TABLE clothes ADD COLUMN price INTEGER;
+
+SELECT * FROM clothes
