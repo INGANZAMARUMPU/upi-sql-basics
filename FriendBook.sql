@@ -38,3 +38,10 @@ INSERT INTO friends (person1_id, person2_id)
 -- SELECT fullname, name FROM persons, hobbies WHERE hobbies.person_id==persons.id; 
 
 SELECT fullname, name FROM persons JOIN hobbies ON hobbies.person_id=persons.id; 
+
+SELECT A.fullname, B.fullname 
+    FROM friends 
+    JOIN persons as A 
+    ON A.id=friends.person1_id
+    JOIN persons as B 
+    ON B.id=friends.person2_id; 
