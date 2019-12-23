@@ -35,3 +35,6 @@ INSERT INTO friends (person1_id, person2_id)
 INSERT INTO friends (person1_id, person2_id)
     VALUES (2, 3);
     
+-- SELECT fullname, name FROM persons, hobbies WHERE hobbies.person_id==persons.id; 
+
+SELECT fullname, name FROM persons JOIN hobbies ON hobbies.person_id=persons.id; 
